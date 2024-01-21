@@ -1,0 +1,1 @@
+{"name":"Local: test1","url":"c:\\Data\\AlgorithmCourseData\\课堂作业\\test1.cpp","tests":[{"id":1683806832385,"input":"3\n13 312 343","output":"34331213"},{"id":1683806855411,"input":"4\n7 13 4 246","output":"7424613"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Data\\AlgorithmCourseData\\课堂作业\\test1.cpp","group":"local","local":true}
