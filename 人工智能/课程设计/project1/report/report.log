@@ -1,0 +1,1834 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.14)  25 APR 2023 14:19
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**c:/Data/VSCodeData/AICourse/project1/report/report.tex
+(c:/Data/VSCodeData/AICourse/project1/report/report.tex
+LaTeX2e <2022-11-01> patch level 1
+L3 programming layer <2023-03-30> (c:/texlive/2023/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
+(c:/texlive/2023/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count185
+\c@section=\count186
+\c@subsection=\count187
+\c@subsubsection=\count188
+\c@paragraph=\count189
+\c@subparagraph=\count190
+\c@figure=\count191
+\c@table=\count192
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
+) (c:/texlive/2023/texmf-dist/tex/latex/ctex/ctex.sty (c:/texlive/2023/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2023-03-30 L3 programming layer (loader) 
+ (c:/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2023-03-30 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count193
+\l__pdf_internal_box=\box51
+))
+
+LaTeX Warning: You have requested package `CTEX',
+               but the package provides `ctex'.
+
+Package: ctex 2022/07/14 v2.5.10 Chinese adapter in LaTeX (CTEX)
+(c:/texlive/2023/texmf-dist/tex/latex/ctex/ctexhook.sty
+Package: ctexhook 2022/07/14 v2.5.10 Document and package hooks (CTEX)
+) (c:/texlive/2023/texmf-dist/tex/latex/ctex/ctexpatch.sty
+Package: ctexpatch 2022/07/14 v2.5.10 Patching commands (CTEX)
+) (c:/texlive/2023/texmf-dist/tex/latex/base/fix-cm.sty
+Package: fix-cm 2020/11/24 v1.1t fixes to LaTeX
+ (c:/texlive/2023/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding TS1 on input line 47.
+))
+\l__ctex_tmp_int=\count194
+\l__ctex_tmp_box=\box52
+\l__ctex_tmp_dim=\dimen141
+\g__ctex_section_depth_int=\count195
+\g__ctex_font_size_int=\count196
+ (c:/texlive/2023/texmf-dist/tex/latex/ctex/config/ctexopts.cfg
+File: ctexopts.cfg 2022/07/14 v2.5.10 Option configuration file (CTEX)
+) (c:/texlive/2023/texmf-dist/tex/latex/ctex/engine/ctex-engine-pdftex.def
+File: ctex-engine-pdftex.def 2022/07/14 v2.5.10 (pdf)LaTeX adapter (CTEX)
+ (c:/texlive/2023/texmf-dist/tex/latex/cjk/texinput/CJKutf8.sty
+Package: CJKutf8 2021/10/16 4.8.5
+ (c:/texlive/2023/texmf-dist/tex/generic/iftex/ifpdf.sty
+Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
+ (c:/texlive/2023/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+)) (c:/texlive/2023/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks16
+\inpenc@posthook=\toks17
+) (c:/texlive/2023/texmf-dist/tex/latex/cjk/texinput/CJK.sty
+Package: CJK 2021/10/16 4.8.5
+ (c:/texlive/2023/texmf-dist/tex/latex/cjk/texinput/mule/MULEenc.sty
+Package: MULEenc 2021/10/16 4.8.5
+) (c:/texlive/2023/texmf-dist/tex/latex/cjk/texinput/CJK.enc
+File: CJK.enc 2021/10/16 4.8.5
+Now handling font encoding C00 ...
+... no UTF-8 mapping file for font encoding C00
+Now handling font encoding C05 ...
+... no UTF-8 mapping file for font encoding C05
+Now handling font encoding C09 ...
+... no UTF-8 mapping file for font encoding C09
+Now handling font encoding C10 ...
+... no UTF-8 mapping file for font encoding C10
+Now handling font encoding C20 ...
+... no UTF-8 mapping file for font encoding C20
+Now handling font encoding C19 ...
+... no UTF-8 mapping file for font encoding C19
+Now handling font encoding C40 ...
+... no UTF-8 mapping file for font encoding C40
+Now handling font encoding C42 ...
+... no UTF-8 mapping file for font encoding C42
+Now handling font encoding C43 ...
+... no UTF-8 mapping file for font encoding C43
+Now handling font encoding C50 ...
+... no UTF-8 mapping file for font encoding C50
+Now handling font encoding C52 ...
+... no UTF-8 mapping file for font encoding C52
+Now handling font encoding C49 ...
+... no UTF-8 mapping file for font encoding C49
+Now handling font encoding C60 ...
+... no UTF-8 mapping file for font encoding C60
+Now handling font encoding C61 ...
+... no UTF-8 mapping file for font encoding C61
+Now handling font encoding C63 ...
+... no UTF-8 mapping file for font encoding C63
+Now handling font encoding C64 ...
+... no UTF-8 mapping file for font encoding C64
+Now handling font encoding C65 ...
+... no UTF-8 mapping file for font encoding C65
+Now handling font encoding C70 ...
+... no UTF-8 mapping file for font encoding C70
+Now handling font encoding C31 ...
+... no UTF-8 mapping file for font encoding C31
+Now handling font encoding C32 ...
+... no UTF-8 mapping file for font encoding C32
+Now handling font encoding C33 ...
+... no UTF-8 mapping file for font encoding C33
+Now handling font encoding C34 ...
+... no UTF-8 mapping file for font encoding C34
+Now handling font encoding C35 ...
+... no UTF-8 mapping file for font encoding C35
+Now handling font encoding C36 ...
+... no UTF-8 mapping file for font encoding C36
+Now handling font encoding C37 ...
+... no UTF-8 mapping file for font encoding C37
+Now handling font encoding C80 ...
+... no UTF-8 mapping file for font encoding C80
+Now handling font encoding C81 ...
+... no UTF-8 mapping file for font encoding C81
+Now handling font encoding C01 ...
+... no UTF-8 mapping file for font encoding C01
+Now handling font encoding C11 ...
+... no UTF-8 mapping file for font encoding C11
+Now handling font encoding C21 ...
+... no UTF-8 mapping file for font encoding C21
+Now handling font encoding C41 ...
+... no UTF-8 mapping file for font encoding C41
+Now handling font encoding C62 ...
+... no UTF-8 mapping file for font encoding C62
+)
+\CJK@indent=\box53
+) (c:/texlive/2023/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+)) (c:/texlive/2023/texmf-dist/tex/latex/cjkpunct/CJKpunct.sty
+Package: CJKpunct 2016/05/14 4.8.4
+\CJKpunct@cnta=\count197
+\CJKpunct@cntb=\count198
+\CJKpunct@cntc=\count199
+\CJKpunct@cntd=\count266
+\CJKpunct@cnte=\count267
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2026 (decimal 8230)
+ (c:/texlive/2023/texmf-dist/tex/latex/cjkpunct/CJKpunct.spa)) (c:/texlive/2023/texmf-dist/tex/latex/cjk/texinput/CJKspace.sty
+Package: CJKspace 2021/10/16 3.8.0
+) (c:/texlive/2023/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.bdg
+File: UTF8.bdg 2021/10/16 4.8.5
+) (c:/texlive/2023/texmf-dist/tex/latex/ctex/ctexspa.def
+File: ctexspa.def 2022/07/14 v2.5.10 Space info for CJKpunct (CTEX)
+)
+\ccwd=\dimen142
+\l__ctex_ccglue_skip=\skip50
+)
+\l__ctex_ziju_dim=\dimen143
+ (c:/texlive/2023/texmf-dist/tex/latex/zhnumber/zhnumber.sty
+Package: zhnumber 2022/07/14 v3.0 Typesetting numbers with Chinese glyphs
+\l__zhnum_scale_int=\count268
+\l__zhnum_tmp_int=\count269
+ (c:/texlive/2023/texmf-dist/tex/latex/zhnumber/zhnumber-utf8.cfg
+File: zhnumber-utf8.cfg 2022/07/14 v3.0 Chinese numerals with UTF8 encoding
+)) (c:/texlive/2023/texmf-dist/tex/latex/ctex/scheme/ctex-scheme-chinese.def
+File: ctex-scheme-chinese.def 2022/07/14 v2.5.10 Chinese scheme for generic (CTEX)
+ (c:/texlive/2023/texmf-dist/tex/latex/ctex/config/ctex-name-utf8.cfg
+File: ctex-name-utf8.cfg 2022/07/14 v2.5.10 Caption with encoding UTF-8 (CTEX)
+)) (c:/texlive/2023/texmf-dist/tex/latex/tools/indentfirst.sty
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+) (c:/texlive/2023/texmf-dist/tex/latex/ctex/fontset/ctex-fontset-windows.def
+File: ctex-fontset-windows.def 2022/07/14 v2.5.10 Windows fonts definition (CTEX)
+)) (c:/texlive/2023/texmf-dist/tex/latex/ctex/config/ctex.cfg
+File: ctex.cfg 2022/07/14 v2.5.10 Configuration file (CTEX)
+) (c:/texlive/2023/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+ (c:/texlive/2023/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks18
+) (c:/texlive/2023/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+ (c:/texlive/2023/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+) (c:/texlive/2023/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+ (c:/texlive/2023/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen144
+\Gin@req@width=\dimen145
+) (c:/texlive/2023/texmf-dist/tex/latex/diagbox/diagbox.sty
+Package: diagbox 2020/02/09 v2.3 Making table heads with diagonal lines
+ (c:/texlive/2023/texmf-dist/tex/latex/pict2e/pict2e.sty
+Package: pict2e 2020/09/30 v0.4b Improved picture commands (HjG,RN,JT)
+ (c:/texlive/2023/texmf-dist/tex/latex/pict2e/pict2e.cfg
+File: pict2e.cfg 2016/02/05 v0.1u pict2e configuration for teTeX/TeXLive
+)
+Package pict2e Info: Driver file: pdftex.def on input line 112.
+Package pict2e Info: Driver file for pict2e: p2e-pdftex.def on input line 114.
+ (c:/texlive/2023/texmf-dist/tex/latex/pict2e/p2e-pdftex.def
+File: p2e-pdftex.def 2016/02/05 v0.1u Driver-dependant file (RN,HjG,JT)
+)
+\pIIe@GRAPH=\toks19
+\@arclen=\dimen146
+\@arcrad=\dimen147
+\pIIe@tempdima=\dimen148
+\pIIe@tempdimb=\dimen149
+\pIIe@tempdimc=\dimen150
+\pIIe@tempdimd=\dimen151
+\pIIe@tempdime=\dimen152
+\pIIe@tempdimf=\dimen153
+) (c:/texlive/2023/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count270
+\calc@Bcount=\count271
+\calc@Adimen=\dimen154
+\calc@Bdimen=\dimen155
+\calc@Askip=\skip51
+\calc@Bskip=\skip52
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count272
+\calc@Cskip=\skip53
+) (c:/texlive/2023/texmf-dist/tex/latex/tools/array.sty
+Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen156
+\ar@mcellbox=\box54
+\extrarowheight=\dimen157
+\NC@list=\toks20
+\extratabsurround=\skip54
+\backup@length=\skip55
+\ar@cellbox=\box55
+)
+\diagbox@boxa=\box56
+\diagbox@boxb=\box57
+\diagbox@boxm=\box58
+\diagbox@wd=\dimen158
+\diagbox@ht=\dimen159
+\diagbox@insepl=\dimen160
+\diagbox@insepr=\dimen161
+\diagbox@outsepl=\dimen162
+\diagbox@outsepr=\dimen163
+) (c:/texlive/2023/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (c:/texlive/2023/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (c:/texlive/2023/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (c:/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks21
+\pgfutil@tempdima=\dimen164
+\pgfutil@tempdimb=\dimen165
+) (c:/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box59
+) (c:/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (c:/texlive/2023/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+))
+Package: pgf 2023-01-15 v3.1.10 (3.1.10)
+ (c:/texlive/2023/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (c:/texlive/2023/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (c:/texlive/2023/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
+ (c:/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks22
+\pgfkeys@temptoks=\toks23
+ (c:/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.code.tex
+\pgfkeys@tmptoks=\toks24
+))
+\pgf@x=\dimen166
+\pgf@y=\dimen167
+\pgf@xa=\dimen168
+\pgf@ya=\dimen169
+\pgf@xb=\dimen170
+\pgf@yb=\dimen171
+\pgf@xc=\dimen172
+\pgf@yc=\dimen173
+\pgf@xd=\dimen174
+\pgf@yd=\dimen175
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count273
+\c@pgf@countb=\count274
+\c@pgf@countc=\count275
+\c@pgf@countd=\count276
+\t@pgf@toka=\toks25
+\t@pgf@tokb=\toks26
+\t@pgf@tokc=\toks27
+\pgf@sys@id@count=\count277
+ (c:/texlive/2023/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
+)
+Driver file for pgf: pgfsys-pdftex.def
+ (c:/texlive/2023/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
+ (c:/texlive/2023/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
+))) (c:/texlive/2023/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfsyssoftpath@smallbuffer@items=\count278
+\pgfsyssoftpath@bigbuffer@items=\count279
+) (c:/texlive/2023/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)) (c:/texlive/2023/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
+ (c:/texlive/2023/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+ (c:/texlive/2023/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
+Package xcolor Info: Model `RGB' extended on input line 1369.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1371.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
+) (c:/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
+ (c:/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (c:/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (c:/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen176
+\pgfmath@count=\count280
+\pgfmath@box=\box60
+\pgfmath@toks=\toks28
+\pgfmath@stack@operand=\toks29
+\pgfmath@stack@operation=\toks30
+) (c:/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex) (c:/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (c:/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (c:/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (c:/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (c:/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (c:/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (c:/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (c:/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex) (c:/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex) (c:/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count281
+)) (c:/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (c:/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@picminx=\dimen177
+\pgf@picmaxx=\dimen178
+\pgf@picminy=\dimen179
+\pgf@picmaxy=\dimen180
+\pgf@pathminx=\dimen181
+\pgf@pathmaxx=\dimen182
+\pgf@pathminy=\dimen183
+\pgf@pathmaxy=\dimen184
+\pgf@xx=\dimen185
+\pgf@xy=\dimen186
+\pgf@yx=\dimen187
+\pgf@yy=\dimen188
+\pgf@zx=\dimen189
+\pgf@zy=\dimen190
+) (c:/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@path@lastx=\dimen191
+\pgf@path@lasty=\dimen192
+) (c:/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@shorten@end@additional=\dimen193
+\pgf@shorten@start@additional=\dimen194
+) (c:/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfpic=\box61
+\pgf@hbox=\box62
+\pgf@layerbox@main=\box63
+\pgf@picture@serial@count=\count282
+) (c:/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgflinewidth=\dimen195
+) (c:/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@pt@x=\dimen196
+\pgf@pt@y=\dimen197
+\pgf@pt@temp=\dimen198
+) (c:/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (c:/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (c:/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (c:/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowsep=\dimen199
+) (c:/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@max=\dimen256
+\pgf@sys@shading@range@num=\count283
+\pgf@shadingcount=\count284
+) (c:/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (c:/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfexternal@startupbox=\box64
+) (c:/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (c:/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (c:/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (c:/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))) (c:/texlive/2023/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodeparttextbox=\box65
+) (c:/texlive/2023/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (c:/texlive/2023/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
+\pgf@nodesepstart=\dimen257
+\pgf@nodesepend=\dimen258
+) (c:/texlive/2023/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
+)) (c:/texlive/2023/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (c:/texlive/2023/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (c:/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (c:/texlive/2023/texmf-dist/tex/latex/pgf/math/pgfmath.sty (c:/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)) (c:/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
+\pgffor@iter=\dimen259
+\pgffor@skip=\dimen260
+\pgffor@stack=\toks31
+\pgffor@toks=\toks32
+)) (c:/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2023-01-15 v3.1.10 (3.1.10)
+ (c:/texlive/2023/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@plot@mark@count=\count285
+\pgfplotmarksize=\dimen261
+)
+\tikz@lastx=\dimen262
+\tikz@lasty=\dimen263
+\tikz@lastxsaved=\dimen264
+\tikz@lastysaved=\dimen265
+\tikz@lastmovetox=\dimen266
+\tikz@lastmovetoy=\dimen267
+\tikzleveldistance=\dimen268
+\tikzsiblingdistance=\dimen269
+\tikz@figbox=\box66
+\tikz@figbox@bg=\box67
+\tikz@tempbox=\box68
+\tikz@tempbox@bg=\box69
+\tikztreelevel=\count286
+\tikznumberofchildren=\count287
+\tikznumberofcurrentchild=\count288
+\tikz@fig@count=\count289
+ (c:/texlive/2023/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfmatrixcurrentrow=\count290
+\pgfmatrixcurrentcolumn=\count291
+\pgf@matrix@numberofcolumns=\count292
+)
+\tikz@expandcount=\count293
+ (c:/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))) (c:/texlive/2023/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2022/12/04 v6.7b set line spacing
+) (c:/texlive/2023/texmf-dist/tex/latex/subfigure/subfigure.sty
+Package: subfigure 2002/03/15 v2.1.5 subfigure package
+\subfigtopskip=\skip56
+\subfigcapskip=\skip57
+\subfigcaptopadj=\dimen270
+\subfigbottomskip=\skip58
+\subfigcapmargin=\dimen271
+\subfiglabelskip=\skip59
+\c@subfigure=\count294
+\c@lofdepth=\count295
+\c@subtable=\count296
+\c@lotdepth=\count297
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(c:/texlive/2023/texmf-dist/tex/latex/subfigure/subfigure.cfg)
+\subfig@top=\skip60
+\subfig@bottom=\skip61
+) (c:/texlive/2023/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count298
+\lst@gtempboxa=\box70
+\lst@token=\toks33
+\lst@length=\count299
+\lst@currlwidth=\dimen272
+\lst@column=\count300
+\lst@pos=\count301
+\lst@lostspace=\dimen273
+\lst@width=\dimen274
+\lst@newlines=\count302
+\lst@lineno=\count303
+\lst@maxwidth=\dimen275
+ (c:/texlive/2023/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
+\c@lstnumber=\count304
+\lst@skipnumbers=\count305
+\lst@framebox=\box71
+) (c:/texlive/2023/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2023/02/27 1.9 listings configuration
+))
+Package: listings 2023/02/27 1.9 (Carsten Heinz)
+ (c:/texlive/2023/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
+File: UTF8.enc 2021/10/16 4.8.5
+) (c:/texlive/2023/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
+File: UTF8.chr 2021/10/16 4.8.5
+) (./report.aux)
+\openout1 = `report.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+ (c:/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count306
+\scratchdimen=\dimen276
+\scratchbox=\box72
+\nofMPsegments=\count307
+\nofMParguments=\count308
+\everyMPshowfont=\toks34
+\MPscratchCnt=\count309
+\MPscratchDim=\dimen277
+\MPnumerator=\count310
+\makeMPintoPDFobject=\count311
+\everyMPtoPDFconversion=\toks35
+) (c:/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (c:/texlive/2023/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
+\c@lstlisting=\count312
+LaTeX Font Info:    Trying to load font information for C70+rm on input line 37.
+ (c:/texlive/2023/texmf-dist/tex/latex/ctex/fd/c70rm.fd
+File: c70rm.fd 2022/07/14 v2.5.10 Chinese font definition (CTEX)
+)
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.4> on input line 37.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 37.
+
+
+LaTeX Warning: No \author given.
+
+<tongji_logo.png, id=14, 398.99063pt x 386.19281pt>
+File: tongji_logo.png Graphic file (type png)
+<use tongji_logo.png>
+Package pdftex.def Info: tongji_logo.png  used on input line 40.
+(pdftex.def)             Requested size: 199.16606pt x 199.17142pt.
+(c:/texlive/2023/texmf-dist/tex/generic/ctex/zhmap/ctex-zhmap-windows.tex
+File: ctex-zhmap-windows.tex 2022/07/14 v2.5.10 Windows font map loader for pdfTeX and DVIPDFMx (CTEX)
+{c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{UGBK.sfd}{Unicode.sfd}) [1
+
+ <./tongji_logo.png>]
+Package CJKpunct Info: use punctuation spaces for family 'rm' with punctstyle (quanjiao) on input line 58.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 77.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 77.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 77.
+ [2] [3] [4]
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:191: Improper alphabetic constant.
+<to be read again> 
+                   \lst@FillFixed@ 
+l.191 st=util.Stack() #定义栈
+                                
+A one-character control sequence belongs after a ` mark.
+So I'm essentially inserting \0 here.
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:191: Argument of \lst@FillFixed@ has an extra }.
+<inserted text> 
+                \par 
+l.191 st=util.Stack() #定义栈
+                                
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:191: Paragraph ended before \lst@FillFixed@ was complete.
+<to be read again> 
+                   \par 
+l.191 st=util.Stack() #定义栈
+                                
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:191: Improper alphabetic constant.
+<to be read again> 
+                   \lst@EC� 
+l.191 st=util.Stack() #定义栈
+                                
+A one-character control sequence belongs after a ` mark.
+So I'm essentially inserting \0 here.
+
+Runaway argument?
+{48
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:191: Paragraph ended before \CJK@229 was complete.
+<to be read again> 
+                   \par 
+l.191 st=util.Stack() #定义栈
+                                
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+Missing character: There is no � in font cmbx8!
+Missing character: There is no � in font cmbx8!
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:191: Improper alphabetic constant.
+<to be read again> 
+                   \lst@EC� 
+l.191 st=util.Stack() #定义栈
+                                
+A one-character control sequence belongs after a ` mark.
+So I'm essentially inserting \0 here.
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:191: Improper alphabetic constant.
+<to be read again> 
+                   \lst@EC� 
+l.191 st=util.Stack() #定义栈
+                                
+A one-character control sequence belongs after a ` mark.
+So I'm essentially inserting \0 here.
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:191: Missing = inserted for \ifnum.
+<to be read again> 
+                   �
+l.191 st=util.Stack() #定义栈
+                                
+I was expecting to see `<', `=', or `>'. Didn't.
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:191: Missing number, treated as zero.
+<to be read again> 
+                   �
+l.191 st=util.Stack() #定义栈
+                                
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:191: Missing = inserted for \ifnum.
+<to be read again> 
+                   �
+l.191 st=util.Stack() #定义栈
+                                
+I was expecting to see `<', `=', or `>'. Didn't.
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:191: Missing number, treated as zero.
+<to be read again> 
+                   �
+l.191 st=util.Stack() #定义栈
+                                
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:191: Missing = inserted for \ifnum.
+<to be read again> 
+                   �
+l.191 st=util.Stack() #定义栈
+                                
+I was expecting to see `<', `=', or `>'. Didn't.
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:191: Missing number, treated as zero.
+<to be read again> 
+                   �
+l.191 st=util.Stack() #定义栈
+                                
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:191: Missing = inserted for \ifnum.
+<to be read again> 
+                   �
+l.191 st=util.Stack() #定义栈
+                                
+I was expecting to see `<', `=', or `>'. Didn't.
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:191: Missing number, treated as zero.
+<to be read again> 
+                   �
+l.191 st=util.Stack() #定义栈
+                                
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+Missing character: There is no � in font cmbx8!
+Missing character: There is no � in font cmbx8!
+Missing character: There is no � in font cmbx8!
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:191: Bad character code (-80).
+<argument> \@tempcnta 
+                      
+l.191 st=util.Stack() #定义栈
+                                
+A character number must be between 0 and 255.
+I changed this one to zero.
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:191: Improper alphabetic constant.
+<to be read again> 
+                   \lst@EC� 
+l.191 st=util.Stack() #定义栈
+                                
+A one-character control sequence belongs after a ` mark.
+So I'm essentially inserting \0 here.
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:191: Improper alphabetic constant.
+<to be read again> 
+                   \lst@EC� 
+l.191 st=util.Stack() #定义栈
+                                
+A one-character control sequence belongs after a ` mark.
+So I'm essentially inserting \0 here.
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:191: Missing = inserted for \ifnum.
+<to be read again> 
+                   �
+l.191 st=util.Stack() #定义栈
+                                
+I was expecting to see `<', `=', or `>'. Didn't.
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:191: Missing number, treated as zero.
+<to be read again> 
+                   �
+l.191 st=util.Stack() #定义栈
+                                
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:191: Missing = inserted for \ifnum.
+<to be read again> 
+                   �
+l.191 st=util.Stack() #定义栈
+                                
+I was expecting to see `<', `=', or `>'. Didn't.
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:191: Missing number, treated as zero.
+<to be read again> 
+                   �
+l.191 st=util.Stack() #定义栈
+                                
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:191: Missing = inserted for \ifnum.
+<to be read again> 
+                   �
+l.191 st=util.Stack() #定义栈
+                                
+I was expecting to see `<', `=', or `>'. Didn't.
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:191: Missing number, treated as zero.
+<to be read again> 
+                   �
+l.191 st=util.Stack() #定义栈
+                                
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:191: Missing = inserted for \ifnum.
+<to be read again> 
+                   �
+l.191 st=util.Stack() #定义栈
+                                
+I was expecting to see `<', `=', or `>'. Didn't.
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:191: Missing number, treated as zero.
+<to be read again> 
+                   �
+l.191 st=util.Stack() #定义栈
+                                
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+Missing character: There is no � in font cmbx8!
+Missing character: There is no � in font cmbx8!
+Missing character: There is no � in font cmbx8!
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:191: Bad character code (-80).
+<argument> \@tempcnta 
+                      
+l.191 st=util.Stack() #定义栈
+                                
+A character number must be between 0 and 255.
+I changed this one to zero.
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:192: Missing $ inserted.
+<inserted text> 
+                $
+l.192 start_
+            pos=[problem.getStartState(),[]] #栈内元素为坐标和起始...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 192.
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:192: You can't use `macro parameter character #' in math mode.
+l.192 start_pos=[problem.getStartState(),[]] #
+                                              栈内元素为坐标和起始...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+LaTeX Font Info:    Trying to load font information for C70+zhfs on input line 192.
+(c:/texlive/2023/texmf-dist/tex/latex/zhmetrics/c70zhfs.fd
+File: c70zhfs.fd 2009/09/23 4.8.2
+)
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:194: You can't use `macro parameter character #' in math mode.
+l.194 visited=set()#
+                    记录当前坐标是否访问过，防止重复访问
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Package CJKpunct Info: use punctuation spaces for family 'zhfs' with punctstyle (quanjiao) on input line 194.
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:196: You can't use `macro parameter character #' in math mode.
+l.196     [now_pos,path]=st.pop()#
+                                  取出栈顶元素
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:198: You can't use `macro parameter character #' in math mode.
+l.198         return path #
+                           如果已经到达目标地点，直接返回path...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:200: You can't use `macro parameter character #' in math mode.
+l.200         visited.add(now_pos)#
+                                   将该节点标记为已读
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:202: You can't use `macro parameter character #' in math mode.
+l.202             #
+                   遍历新节点
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:206: Missing $ inserted.
+<inserted text> 
+                $
+l.206         \end{lstlisting}
+                              
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+Missing character: There is no � in font cmr8!
+Missing character: There is no � in font cmr8!
+Missing character: There is no � in font cmr8!
+Missing character: There is no � in font cmr8!
+Missing character: There is no � in font cmr8!
+Missing character: There is no � in font cmr8!
+Missing character: There is no � in font cmr8!
+Missing character: There is no � in font cmr8!
+Missing character: There is no � in font cmr8!
+Missing character: There is no � in font cmr8!
+Missing character: There is no � in font cmr8!
+Missing character: There is no � in font cmr8!
+Missing character: There is no � in font cmr8!
+Missing character: There is no � in font cmr8!
+Missing character: There is no � in font cmr8!
+Missing character: There is no � in font cmr8!
+Missing character: There is no � in font cmr8!
+Missing character: There is no � in font cmr8!
+Missing character: There is no � in font cmr8!
+Missing character: There is no � in font cmr8!
+Missing character: There is no � in font cmr8!
+Missing character: There is no � in font cmr8!
+Missing character: There is no � in font cmr8!
+Missing character: There is no � in font cmr8!
+Missing character: There is no � in font cmr8!
+Missing character: There is no � in font cmr8!
+Missing character: There is no � in font cmr8!
+Missing character: There is no � in font cmr8!
+Missing character: There is no � in font cmr8!
+Missing character: There is no � in font cmr8!
+Missing character: There is no � in font cmr8!
+Missing character: There is no � in font cmr8!
+Missing character: There is no � in font cmr8!
+Missing character: There is no � in font cmr8!
+Missing character: There is no � in font cmr8!
+Missing character: There is no � in font cmr8!
+Missing character: There is no � in font cmr8!
+Missing character: There is no � in font cmr8!
+Missing character: There is no � in font cmr8!
+Missing character: There is no � in font cmr8!
+Missing character: There is no � in font cmr8!
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:206: Infinite glue shrinkage found in a paragraph.
+<recently read> \tex_par:D 
+                           
+l.206         \end{lstlisting}
+                              
+The paragraph just ended includes some glue that has
+infinite shrinkability, e.g., `\hskip 0pt minus 1fil'.
+Such glue doesn't belong there---it allows a paragraph
+of any length to fit on one line. But it's safe to proceed,
+since the offensive shrinkability has been made finite.
+
+
+Overfull \hbox (21.8011pt too wide) in paragraph at lines 191--206
+\OT1/cmr/m/n/8 [\OML/cmm/m/it/8 problem:getStartState\OT1/cmr/m/n/8 ()\OML/cmm/m/it/8 ; \OT1/cmr/m/n/8 []][][][][][][][][][][][][][][][][][]\OML/cmm/m/it/8 st:push\OT1/cmr/m/n/8 (\OML/cmm/m/it/8 start[]os\OT1/cmr/m/n/8 )\OML/cmm/m/it/8 visited \OT1/cmr/m/n/8 = \OML/cmm/m/it/8 set\OT1/cmr/m/n/8 ()[][][][][][][][][][][][][][][][][][]\OML/cmm/m/it/8 whilenotst:isEmpty\OT1/cmr/m/n/8 () :
+ []
+
+
+Overfull \hbox (18.42212pt too wide) in paragraph at lines 191--206
+\OT1/cmr/m/n/8 [\OML/cmm/m/it/8 now[]os; path\OT1/cmr/m/n/8 ] = \OML/cmm/m/it/8 st:pop\OT1/cmr/m/n/8 ()[][][][][][]\OML/cmm/m/it/8 if\OT1/cmr/m/n/8 (\OML/cmm/m/it/8 problem:isGoalState\OT1/cmr/m/n/8 (\OML/cmm/m/it/8 now[]os\OT1/cmr/m/n/8 )) : \OML/cmm/m/it/8 returnpath[][][][][][][][][][][][][][][]path[][]ifnotnow[]osinvisited \OT1/cmr/m/n/8 :
+ []
+
+
+Overfull \hbox (9.2068pt too wide) in paragraph at lines 191--206
+\OML/cmm/m/it/8 visited:add\OT1/cmr/m/n/8 (\OML/cmm/m/it/8 now[]os\OT1/cmr/m/n/8 )[][][][][][][][][]\OML/cmm/m/it/8 fornew[]tate; new[]ction; new[]ostinproblem:getSuccessors\OT1/cmr/m/n/8 (\OML/cmm/m/it/8 now[]os\OT1/cmr/m/n/8 ) : [][][][][]\OML/cmm/m/it/8 new[]ath \OT1/cmr/m/n/8 =
+ []
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:222: Improper alphabetic constant.
+<to be read again> 
+                   \expandafter 
+l.222 ...��相似，主要是把栈换成了队列
+                                                  
+A one-character control sequence belongs after a ` mark.
+So I'm essentially inserting \0 here.
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:222: Improper alphabetic constant.
+<to be read again> 
+                   \lst@FillFixed@ 
+l.222 ...��相似，主要是把栈换成了队列
+                                                  
+A one-character control sequence belongs after a ` mark.
+So I'm essentially inserting \0 here.
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:222: Argument of \lst@FillFixed@ has an extra }.
+<inserted text> 
+                \par 
+l.222 ...��相似，主要是把栈换成了队列
+                                                  
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:222: Paragraph ended before \lst@FillFixed@ was complete.
+<to be read again> 
+                   \par 
+l.222 ...��相似，主要是把栈换成了队列
+                                                  
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+Runaway argument?
+{48
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:222: Paragraph ended before \CJK@228 was complete.
+<to be read again> 
+                   \par 
+l.222 ...��相似，主要是把栈换成了队列
+                                                  
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+Missing character: There is no � in font cmbx8!
+Missing character: There is no � in font cmbx8!
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:222: Improper alphabetic constant.
+<to be read again> 
+                   \lst@EC� 
+l.222 ...��相似，主要是把栈换成了队列
+                                                  
+A one-character control sequence belongs after a ` mark.
+So I'm essentially inserting \0 here.
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:222: Improper alphabetic constant.
+<to be read again> 
+                   \lst@EC� 
+l.222 ...��相似，主要是把栈换成了队列
+                                                  
+A one-character control sequence belongs after a ` mark.
+So I'm essentially inserting \0 here.
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:222: Missing = inserted for \ifnum.
+<to be read again> 
+                   �
+l.222 ...��相似，主要是把栈换成了队列
+                                                  
+I was expecting to see `<', `=', or `>'. Didn't.
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:222: Missing number, treated as zero.
+<to be read again> 
+                   �
+l.222 ...��相似，主要是把栈换成了队列
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:222: Missing = inserted for \ifnum.
+<to be read again> 
+                   �
+l.222 ...��相似，主要是把栈换成了队列
+                                                  
+I was expecting to see `<', `=', or `>'. Didn't.
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:222: Missing number, treated as zero.
+<to be read again> 
+                   �
+l.222 ...��相似，主要是把栈换成了队列
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:222: Missing = inserted for \ifnum.
+<to be read again> 
+                   �
+l.222 ...��相似，主要是把栈换成了队列
+                                                  
+I was expecting to see `<', `=', or `>'. Didn't.
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:222: Missing number, treated as zero.
+<to be read again> 
+                   �
+l.222 ...��相似，主要是把栈换成了队列
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:222: Missing = inserted for \ifnum.
+<to be read again> 
+                   �
+l.222 ...��相似，主要是把栈换成了队列
+                                                  
+I was expecting to see `<', `=', or `>'. Didn't.
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:222: Missing number, treated as zero.
+<to be read again> 
+                   �
+l.222 ...��相似，主要是把栈换成了队列
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+Missing character: There is no � in font cmbx8!
+Missing character: There is no � in font cmbx8!
+Missing character: There is no � in font cmbx8!
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:222: Bad character code (-80).
+<argument> \@tempcnta 
+                      
+l.222 ...��相似，主要是把栈换成了队列
+                                                  
+A character number must be between 0 and 255.
+I changed this one to zero.
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:222: Improper alphabetic constant.
+<to be read again> 
+                   \lst@EC� 
+l.222 ...��相似，主要是把栈换成了队列
+                                                  
+A one-character control sequence belongs after a ` mark.
+So I'm essentially inserting \0 here.
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:222: Improper alphabetic constant.
+<to be read again> 
+                   \lst@EC� 
+l.222 ...��相似，主要是把栈换成了队列
+                                                  
+A one-character control sequence belongs after a ` mark.
+So I'm essentially inserting \0 here.
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:222: Missing = inserted for \ifnum.
+<to be read again> 
+                   �
+l.222 ...��相似，主要是把栈换成了队列
+                                                  
+I was expecting to see `<', `=', or `>'. Didn't.
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:222: Missing number, treated as zero.
+<to be read again> 
+                   �
+l.222 ...��相似，主要是把栈换成了队列
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:222: Missing = inserted for \ifnum.
+<to be read again> 
+                   �
+l.222 ...��相似，主要是把栈换成了队列
+                                                  
+I was expecting to see `<', `=', or `>'. Didn't.
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:222: Missing number, treated as zero.
+<to be read again> 
+                   �
+l.222 ...��相似，主要是把栈换成了队列
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:222: Missing = inserted for \ifnum.
+<to be read again> 
+                   �
+l.222 ...��相似，主要是把栈换成了队列
+                                                  
+I was expecting to see `<', `=', or `>'. Didn't.
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:222: Missing number, treated as zero.
+<to be read again> 
+                   �
+l.222 ...��相似，主要是把栈换成了队列
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:222: Missing = inserted for \ifnum.
+<to be read again> 
+                   �
+l.222 ...��相似，主要是把栈换成了队列
+                                                  
+I was expecting to see `<', `=', or `>'. Didn't.
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:222: Missing number, treated as zero.
+<to be read again> 
+                   �
+l.222 ...��相似，主要是把栈换成了队列
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+Missing character: There is no � in font cmbx8!
+Missing character: There is no � in font cmbx8!
+Missing character: There is no � in font cmbx8!
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:222: Bad character code (-80).
+<argument> \@tempcnta 
+                      
+l.222 ...��相似，主要是把栈换成了队列
+                                                  
+A character number must be between 0 and 255.
+I changed this one to zero.
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:222: Improper alphabetic constant.
+<to be read again> 
+                   \lst@EC� 
+l.222 ...��相似，主要是把栈换成了队列
+                                                  
+A one-character control sequence belongs after a ` mark.
+So I'm essentially inserting \0 here.
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:222: Improper alphabetic constant.
+<to be read again> 
+                   \lst@EC� 
+l.222 ...��相似，主要是把栈换成了队列
+                                                  
+A one-character control sequence belongs after a ` mark.
+So I'm essentially inserting \0 here.
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:222: Missing = inserted for \ifnum.
+<to be read again> 
+                   �
+l.222 ...��相似，主要是把栈换成了队列
+                                                  
+I was expecting to see `<', `=', or `>'. Didn't.
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:222: Missing number, treated as zero.
+<to be read again> 
+                   �
+l.222 ...��相似，主要是把栈换成了队列
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:222: Missing = inserted for \ifnum.
+<to be read again> 
+                   �
+l.222 ...��相似，主要是把栈换成了队列
+                                                  
+I was expecting to see `<', `=', or `>'. Didn't.
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:222: Missing number, treated as zero.
+<to be read again> 
+                   �
+l.222 ...��相似，主要是把栈换成了队列
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:222: Missing = inserted for \ifnum.
+<to be read again> 
+                   �
+l.222 ...��相似，主要是把栈换成了队列
+                                                  
+I was expecting to see `<', `=', or `>'. Didn't.
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:222: Missing number, treated as zero.
+<to be read again> 
+                   �
+l.222 ...��相似，主要是把栈换成了队列
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:222: Missing = inserted for \ifnum.
+<to be read again> 
+                   �
+l.222 ...��相似，主要是把栈换成了队列
+                                                  
+I was expecting to see `<', `=', or `>'. Didn't.
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:222: Missing number, treated as zero.
+<to be read again> 
+                   �
+l.222 ...��相似，主要是把栈换成了队列
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+Missing character: There is no � in font cmbx8!
+Missing character: There is no � in font cmbx8!
+Missing character: There is no � in font cmbx8!
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:222: Bad character code (-80).
+<argument> \@tempcnta 
+                      
+l.222 ...��相似，主要是把栈换成了队列
+                                                  
+A character number must be between 0 and 255.
+I changed this one to zero.
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:222: Improper alphabetic constant.
+<to be read again> 
+                   \lst@EC� 
+l.222 ...��相似，主要是把栈换成了队列
+                                                  
+A one-character control sequence belongs after a ` mark.
+So I'm essentially inserting \0 here.
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:222: Improper alphabetic constant.
+<to be read again> 
+                   \lst@EC� 
+l.222 ...��相似，主要是把栈换成了队列
+                                                  
+A one-character control sequence belongs after a ` mark.
+So I'm essentially inserting \0 here.
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:222: Missing = inserted for \ifnum.
+<to be read again> 
+                   �
+l.222 ...��相似，主要是把栈换成了队列
+                                                  
+I was expecting to see `<', `=', or `>'. Didn't.
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:222: Missing number, treated as zero.
+<to be read again> 
+                   �
+l.222 ...��相似，主要是把栈换成了队列
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:222: Missing = inserted for \ifnum.
+<to be read again> 
+                   �
+l.222 ...��相似，主要是把栈换成了队列
+                                                  
+I was expecting to see `<', `=', or `>'. Didn't.
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:222: Missing number, treated as zero.
+<to be read again> 
+                   �
+l.222 ...��相似，主要是把栈换成了队列
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:222: Missing = inserted for \ifnum.
+<to be read again> 
+                   �
+l.222 ...��相似，主要是把栈换成了队列
+                                                  
+I was expecting to see `<', `=', or `>'. Didn't.
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:222: Missing number, treated as zero.
+<to be read again> 
+                   �
+l.222 ...��相似，主要是把栈换成了队列
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:222: Missing = inserted for \ifnum.
+<to be read again> 
+                   �
+l.222 ...��相似，主要是把栈换成了队列
+                                                  
+I was expecting to see `<', `=', or `>'. Didn't.
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:222: Missing number, treated as zero.
+<to be read again> 
+                   �
+l.222 ...��相似，主要是把栈换成了队列
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+Missing character: There is no � in font cmbx8!
+Missing character: There is no � in font cmbx8!
+Missing character: There is no � in font cmbx8!
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:222: Bad character code (-80).
+<argument> \@tempcnta 
+                      
+l.222 ...��相似，主要是把栈换成了队列
+                                                  
+A character number must be between 0 and 255.
+I changed this one to zero.
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:222: Improper alphabetic constant.
+<to be read again> 
+                   \lst@EC� 
+l.222 ...��相似，主要是把栈换成了队列
+                                                  
+A one-character control sequence belongs after a ` mark.
+So I'm essentially inserting \0 here.
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:222: Improper alphabetic constant.
+<to be read again> 
+                   \lst@EC� 
+l.222 ...��相似，主要是把栈换成了队列
+                                                  
+A one-character control sequence belongs after a ` mark.
+So I'm essentially inserting \0 here.
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:222: Missing = inserted for \ifnum.
+<to be read again> 
+                   �
+l.222 ...��相似，主要是把栈换成了队列
+                                                  
+I was expecting to see `<', `=', or `>'. Didn't.
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:222: Missing number, treated as zero.
+<to be read again> 
+                   �
+l.222 ...��相似，主要是把栈换成了队列
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:222: Missing = inserted for \ifnum.
+<to be read again> 
+                   �
+l.222 ...��相似，主要是把栈换成了队列
+                                                  
+I was expecting to see `<', `=', or `>'. Didn't.
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:222: Missing number, treated as zero.
+<to be read again> 
+                   �
+l.222 ...��相似，主要是把栈换成了队列
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:222: Missing = inserted for \ifnum.
+<to be read again> 
+                   �
+l.222 ...��相似，主要是把栈换成了队列
+                                                  
+I was expecting to see `<', `=', or `>'. Didn't.
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:222: Missing number, treated as zero.
+<to be read again> 
+                   �
+l.222 ...��相似，主要是把栈换成了队列
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:222: Missing = inserted for \ifnum.
+<to be read again> 
+                   �
+l.222 ...��相似，主要是把栈换成了队列
+                                                  
+I was expecting to see `<', `=', or `>'. Didn't.
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:222: Missing number, treated as zero.
+<to be read again> 
+                   �
+l.222 ...��相似，主要是把栈换成了队列
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+Missing character: There is no � in font cmbx8!
+Missing character: There is no � in font cmbx8!
+Missing character: There is no � in font cmbx8!
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:222: Bad character code (-80).
+<argument> \@tempcnta 
+                      
+l.222 ...��相似，主要是把栈换成了队列
+                                                  
+A character number must be between 0 and 255.
+I changed this one to zero.
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:222: Improper alphabetic constant.
+<to be read again> 
+                   \lst@EC� 
+l.222 ...��相似，主要是把栈换成了队列
+                                                  
+A one-character control sequence belongs after a ` mark.
+So I'm essentially inserting \0 here.
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:222: Improper alphabetic constant.
+<to be read again> 
+                   \lst@EC� 
+l.222 ...��相似，主要是把栈换成了队列
+                                                  
+A one-character control sequence belongs after a ` mark.
+So I'm essentially inserting \0 here.
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:222: Missing = inserted for \ifnum.
+<to be read again> 
+                   �
+l.222 ...��相似，主要是把栈换成了队列
+                                                  
+I was expecting to see `<', `=', or `>'. Didn't.
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:222: Missing number, treated as zero.
+<to be read again> 
+                   �
+l.222 ...��相似，主要是把栈换成了队列
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:222: Missing = inserted for \ifnum.
+<to be read again> 
+                   �
+l.222 ...��相似，主要是把栈换成了队列
+                                                  
+I was expecting to see `<', `=', or `>'. Didn't.
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:222: Missing number, treated as zero.
+<to be read again> 
+                   �
+l.222 ...��相似，主要是把栈换成了队列
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:222: Missing = inserted for \ifnum.
+<to be read again> 
+                   �
+l.222 ...��相似，主要是把栈换成了队列
+                                                  
+I was expecting to see `<', `=', or `>'. Didn't.
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:222: Missing number, treated as zero.
+<to be read again> 
+                   �
+l.222 ...��相似，主要是把栈换成了队列
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:222: Missing = inserted for \ifnum.
+<to be read again> 
+                   �
+l.222 ...��相似，主要是把栈换成了队列
+                                                  
+I was expecting to see `<', `=', or `>'. Didn't.
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:222: Missing number, treated as zero.
+<to be read again> 
+                   �
+l.222 ...��相似，主要是把栈换成了队列
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+Missing character: There is no � in font cmbx8!
+Missing character: There is no � in font cmbx8!
+Missing character: There is no � in font cmbx8!
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:222: Bad character code (-80).
+<argument> \@tempcnta 
+                      
+l.222 ...��相似，主要是把栈换成了队列
+                                                  
+A character number must be between 0 and 255.
+I changed this one to zero.
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:222: Improper alphabetic constant.
+<to be read again> 
+                   \lst@EC� 
+l.222 ...��相似，主要是把栈换成了队列
+                                                  
+A one-character control sequence belongs after a ` mark.
+So I'm essentially inserting \0 here.
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:222: Improper alphabetic constant.
+<to be read again> 
+                   \lst@EC� 
+l.222 ...��相似，主要是把栈换成了队列
+                                                  
+A one-character control sequence belongs after a ` mark.
+So I'm essentially inserting \0 here.
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:222: Missing = inserted for \ifnum.
+<to be read again> 
+                   �
+l.222 ...��相似，主要是把栈换成了队列
+                                                  
+I was expecting to see `<', `=', or `>'. Didn't.
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:222: Missing number, treated as zero.
+<to be read again> 
+                   �
+l.222 ...��相似，主要是把栈换成了队列
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:222: Missing = inserted for \ifnum.
+<to be read again> 
+                   �
+l.222 ...��相似，主要是把栈换成了队列
+                                                  
+I was expecting to see `<', `=', or `>'. Didn't.
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:222: Missing number, treated as zero.
+<to be read again> 
+                   �
+l.222 ...��相似，主要是把栈换成了队列
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:222: Missing = inserted for \ifnum.
+<to be read again> 
+                   �
+l.222 ...��相似，主要是把栈换成了队列
+                                                  
+I was expecting to see `<', `=', or `>'. Didn't.
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:222: Missing number, treated as zero.
+<to be read again> 
+                   �
+l.222 ...��相似，主要是把栈换成了队列
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:222: Missing = inserted for \ifnum.
+<to be read again> 
+                   �
+l.222 ...��相似，主要是把栈换成了队列
+                                                  
+I was expecting to see `<', `=', or `>'. Didn't.
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:222: Missing number, treated as zero.
+<to be read again> 
+                   �
+l.222 ...��相似，主要是把栈换成了队列
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+Missing character: There is no � in font cmbx8!
+Missing character: There is no � in font cmbx8!
+Missing character: There is no � in font cmbx8!
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:222: Bad character code (-80).
+<argument> \@tempcnta 
+                      
+l.222 ...��相似，主要是把栈换成了队列
+                                                  
+A character number must be between 0 and 255.
+I changed this one to zero.
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:222: Improper alphabetic constant.
+<to be read again> 
+                   \lst@EC� 
+l.222 ...��相似，主要是把栈换成了队列
+                                                  
+A one-character control sequence belongs after a ` mark.
+So I'm essentially inserting \0 here.
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:222: Improper alphabetic constant.
+<to be read again> 
+                   \lst@EC� 
+l.222 ...��相似，主要是把栈换成了队列
+                                                  
+A one-character control sequence belongs after a ` mark.
+So I'm essentially inserting \0 here.
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:222: Missing = inserted for \ifnum.
+<to be read again> 
+                   �
+l.222 ...��相似，主要是把栈换成了队列
+                                                  
+I was expecting to see `<', `=', or `>'. Didn't.
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:222: Missing number, treated as zero.
+<to be read again> 
+                   �
+l.222 ...��相似，主要是把栈换成了队列
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:222: Missing = inserted for \ifnum.
+<to be read again> 
+                   �
+l.222 ...��相似，主要是把栈换成了队列
+                                                  
+I was expecting to see `<', `=', or `>'. Didn't.
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:222: Missing number, treated as zero.
+<to be read again> 
+                   �
+l.222 ...��相似，主要是把栈换成了队列
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:222: Missing = inserted for \ifnum.
+<to be read again> 
+                   �
+l.222 ...��相似，主要是把栈换成了队列
+                                                  
+I was expecting to see `<', `=', or `>'. Didn't.
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:222: Missing number, treated as zero.
+<to be read again> 
+                   �
+l.222 ...��相似，主要是把栈换成了队列
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:222: Missing = inserted for \ifnum.
+<to be read again> 
+                   �
+l.222 ...��相似，主要是把栈换成了队列
+                                                  
+I was expecting to see `<', `=', or `>'. Didn't.
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:222: Missing number, treated as zero.
+<to be read again> 
+                   �
+l.222 ...��相似，主要是把栈换成了队列
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+Missing character: There is no � in font cmbx8!
+Missing character: There is no � in font cmbx8!
+Missing character: There is no � in font cmbx8!
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:222: Bad character code (-80).
+<argument> \@tempcnta 
+                      
+l.222 ...��相似，主要是把栈换成了队列
+                                                  
+A character number must be between 0 and 255.
+I changed this one to zero.
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:222: Improper alphabetic constant.
+<to be read again> 
+                   \lst@EC� 
+l.222 ...��相似，主要是把栈换成了队列
+                                                  
+A one-character control sequence belongs after a ` mark.
+So I'm essentially inserting \0 here.
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:222: Improper alphabetic constant.
+<to be read again> 
+                   \lst@EC� 
+l.222 ...��相似，主要是把栈换成了队列
+                                                  
+A one-character control sequence belongs after a ` mark.
+So I'm essentially inserting \0 here.
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:222: Missing = inserted for \ifnum.
+<to be read again> 
+                   �
+l.222 ...��相似，主要是把栈换成了队列
+                                                  
+I was expecting to see `<', `=', or `>'. Didn't.
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:222: Missing number, treated as zero.
+<to be read again> 
+                   �
+l.222 ...��相似，主要是把栈换成了队列
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:222: Missing = inserted for \ifnum.
+<to be read again> 
+                   �
+l.222 ...��相似，主要是把栈换成了队列
+                                                  
+I was expecting to see `<', `=', or `>'. Didn't.
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:222: Missing number, treated as zero.
+<to be read again> 
+                   �
+l.222 ...��相似，主要是把栈换成了队列
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:222: Missing = inserted for \ifnum.
+<to be read again> 
+                   �
+l.222 ...��相似，主要是把栈换成了队列
+                                                  
+(That makes 100 errors; please try again.) 
+Here is how much of TeX's memory you used:
+ 18964 strings out of 476017
+ 374379 string characters out of 5793766
+ 1875660 words of memory out of 5000000
+ 38756 multiletter control sequences out of 15000+600000
+ 563899 words of font info for 218 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 88i,8n,91p,756b,1243s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+c:/Data/VSCodeData/AICourse/project1/report/report.tex:222:  ==> Fatal error occurred, no output PDF file produced!

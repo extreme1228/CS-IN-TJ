@@ -1,0 +1,5 @@
+文件夹中的文件解释如下：
+main.py:核心运行的py代码
+main.md:核心代码的markdown模板形式，方便阅读
+注：因为数据集过大，无法直接上传到网盘，所以建议直接从网上获取，相关网址链接：https://aistudio.baidu.com/aistudio/datasetdetail/73499
+一共四个数据集
