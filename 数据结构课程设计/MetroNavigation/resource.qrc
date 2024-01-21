@@ -1,0 +1,18 @@
+<RCC>
+    <qresource prefix="/icon">
+        <file>icon/enlarge.png</file>
+        <file>icon/shrink.png</file>
+        <file>icon/connect.png</file>
+        <file>icon/station.png</file>
+        <file>icon/subway.png</file>
+        <file>icon/add.png</file>
+        <file>icon/all.png</file>
+        <file>icon/query.png</file>
+        <file>icon/map.png</file>
+        <file>icon/metro-shanghai.png</file>
+        <file>icon/mouse.png</file>
+    </qresource>
+    <qresource prefix="/data">
+        <file>data/outLine.txt</file>
+    </qresource>
+</RCC>

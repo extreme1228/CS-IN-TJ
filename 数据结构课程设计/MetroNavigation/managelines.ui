@@ -1,0 +1,876 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ManageLines</class>
+ <widget class="QDialog" name="ManageLines">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>622</width>
+    <height>421</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>Consolas</family>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>添加</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="resource.qrc">
+    <normaloff>:/icon/icon/add.png</normaloff>:/icon/icon/add.png</iconset>
+  </property>
+  <widget class="QTabWidget" name="tabWidget">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>600</width>
+     <height>400</height>
+    </rect>
+   </property>
+   <property name="tabPosition">
+    <enum>QTabWidget::North</enum>
+   </property>
+   <property name="tabShape">
+    <enum>QTabWidget::Rounded</enum>
+   </property>
+   <property name="currentIndex">
+    <number>2</number>
+   </property>
+   <property name="elideMode">
+    <enum>Qt::ElideNone</enum>
+   </property>
+   <widget class="QWidget" name="tabAddLine">
+    <property name="font">
+     <font>
+      <family>Consolas</family>
+     </font>
+    </property>
+    <attribute name="icon">
+     <iconset resource="resource.qrc">
+      <normaloff>:/icon/icon/subway.png</normaloff>:/icon/icon/subway.png</iconset>
+    </attribute>
+    <attribute name="title">
+     <string>线路(&amp;L)</string>
+    </attribute>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>0</y>
+       <width>560</width>
+       <height>160</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Consolas</family>
+      </font>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;说明：新增线路方法&lt;/span&gt;&lt;/p&gt;&lt;p&gt;1.先添加新线路信息；&lt;/p&gt;&lt;p&gt;2.然后在【站点】中添加线路站点；&lt;/p&gt;&lt;p&gt;3.最后在【连接】中确定站点连接关系；&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_12">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>160</y>
+       <width>191</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;线路信息输入：&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_13">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>160</y>
+       <width>91</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;线路预览：&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QWidget" name="layoutWidget8">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>200</y>
+       <width>278</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QLabel" name="label_3">
+        <property name="text">
+         <string>线路名称：</string>
+        </property>
+        <property name="buddy">
+         <cstring>routeNameLineEdit</cstring>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="routeNameLineEdit">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="placeholderText">
+         <string>请输入线路名</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QWidget" name="layoutWidget9">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>250</y>
+       <width>281</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <widget class="QLabel" name="label_8">
+        <property name="text">
+         <string>线路颜色：</string>
+        </property>
+        <property name="buddy">
+         <cstring>chooseColorPushButton</cstring>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="chooseColorPushButton">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>Consolas</family>
+         </font>
+        </property>
+        <property name="text">
+         <string>选择颜色</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QWidget" name="layoutWidget1">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>300</y>
+       <width>281</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_3">
+      <item>
+       <widget class="QPushButton" name="routeCommitPushButton">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>Consolas</family>
+         </font>
+        </property>
+        <property name="text">
+         <string>确认</string>
+        </property>
+        <property name="default">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QPushButton" name="routePreviewPushButton">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>预览</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QGraphicsView" name="routePreview">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>190</y>
+       <width>241</width>
+       <height>161</height>
+      </rect>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tabAddStation">
+    <attribute name="icon">
+     <iconset resource="resource.qrc">
+      <normaloff>:/icon/icon/station.png</normaloff>:/icon/icon/station.png</iconset>
+    </attribute>
+    <attribute name="title">
+     <string>站点(&amp;S)</string>
+    </attribute>
+    <widget class="QLabel" name="label_9">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>120</y>
+       <width>121</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;地理坐标(&amp;amp;P)：&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="buddy">
+      <cstring>longitudeSpinBox</cstring>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_23">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>220</y>
+       <width>160</width>
+       <height>80</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;坐标有效范围:&lt;/span&gt;&lt;/p&gt;&lt;p&gt;min [ 121.0 , 30.9 ]&lt;/p&gt;&lt;p&gt;max [ 122.0 , 31.5 ]&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_10">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>0</y>
+       <width>131</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;站点信息输入：&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_14">
+     <property name="geometry">
+      <rect>
+       <x>300</x>
+       <y>0</y>
+       <width>151</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;站点位置预览：&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QGraphicsView" name="stationPreview">
+     <property name="geometry">
+      <rect>
+       <x>305</x>
+       <y>31</y>
+       <width>281</width>
+       <height>321</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QWidget" name="layoutWidget2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>30</y>
+       <width>278</width>
+       <height>26</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_4">
+      <item>
+       <widget class="QLabel" name="label_4">
+        <property name="text">
+         <string>站点名称：</string>
+        </property>
+        <property name="buddy">
+         <cstring>stationNameLineEdit</cstring>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="stationNameLineEdit">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>Consolas</family>
+         </font>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="placeholderText">
+         <string>添加站点名</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QWidget" name="layoutWidget3">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>150</y>
+       <width>231</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_5">
+        <item>
+         <widget class="QLabel" name="labelLongitude">
+          <property name="minimumSize">
+           <size>
+            <width>35</width>
+            <height>20</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Consolas</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>东经&amp;E</string>
+          </property>
+          <property name="buddy">
+           <cstring>longitudeSpinBox</cstring>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QDoubleSpinBox" name="longitudeSpinBox">
+          <property name="minimumSize">
+           <size>
+            <width>85</width>
+            <height>20</height>
+           </size>
+          </property>
+          <property name="decimals">
+           <number>7</number>
+          </property>
+          <property name="minimum">
+           <double>121.000000000000000</double>
+          </property>
+          <property name="maximum">
+           <double>122.000000000000000</double>
+          </property>
+          <property name="singleStep">
+           <double>0.100000000000000</double>
+          </property>
+          <property name="value">
+           <double>121.000000000000000</double>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_6">
+        <item>
+         <widget class="QLabel" name="labelLatitude">
+          <property name="minimumSize">
+           <size>
+            <width>35</width>
+            <height>20</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Consolas</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>北纬&amp;N</string>
+          </property>
+          <property name="buddy">
+           <cstring>latitudeSpinBox</cstring>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QDoubleSpinBox" name="latitudeSpinBox">
+          <property name="minimumSize">
+           <size>
+            <width>85</width>
+            <height>20</height>
+           </size>
+          </property>
+          <property name="decimals">
+           <number>7</number>
+          </property>
+          <property name="minimum">
+           <double>30.899999999999999</double>
+          </property>
+          <property name="maximum">
+           <double>31.449999999999999</double>
+          </property>
+          <property name="singleStep">
+           <double>0.100000000000000</double>
+          </property>
+          <property name="value">
+           <double>30.899999999999999</double>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QWidget" name="layoutWidget4">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>310</y>
+       <width>281</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_7">
+      <item>
+       <widget class="QPushButton" name="stationCommitPushButton">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>Consolas</family>
+         </font>
+        </property>
+        <property name="text">
+         <string>确认</string>
+        </property>
+        <property name="default">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer_2">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QPushButton" name="stationPreviewPushButton">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>预览</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QWidget" name="layoutWidget5">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>70</y>
+       <width>281</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_8">
+      <item>
+       <widget class="QLabel" name="label_11">
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;选择添加到线路：&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="chooseRouteComboBox"/>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tabAddConnection">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <attribute name="icon">
+     <iconset resource="resource.qrc">
+      <normaloff>:/icon/icon/connect.png</normaloff>:/icon/icon/connect.png</iconset>
+    </attribute>
+    <attribute name="title">
+     <string>连接(&amp;C)</string>
+    </attribute>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>560</width>
+       <height>121</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;提示：&lt;/span&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;连接站点&lt;/span&gt;&lt;/p&gt;&lt;p&gt;1.连接“站点1”和“站点2”为一条边；&lt;/p&gt;&lt;p&gt;2.“站点1”和“站点2”属于同一条线路中的不同站点；&lt;/p&gt;&lt;p&gt;3.站点及线路选择可以选择也可直接输入。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_15">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>130</y>
+       <width>161</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;连接信息输入：&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_16">
+     <property name="geometry">
+      <rect>
+       <x>360</x>
+       <y>0</y>
+       <width>131</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;连接站点预览：&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QWidget" name="layoutWidget6">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>170</y>
+       <width>291</width>
+       <height>131</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_9">
+        <item>
+         <widget class="QLabel" name="label_5">
+          <property name="text">
+           <string>站点1：</string>
+          </property>
+          <property name="buddy">
+           <cstring>station1ComboBox</cstring>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="station1ComboBox">
+          <property name="enabled">
+           <bool>true</bool>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Consolas</family>
+           </font>
+          </property>
+          <property name="editable">
+           <bool>true</bool>
+          </property>
+          <property name="currentIndex">
+           <number>-1</number>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_10">
+        <item>
+         <widget class="QLabel" name="label_6">
+          <property name="text">
+           <string>站点2：</string>
+          </property>
+          <property name="buddy">
+           <cstring>station2ComboBox</cstring>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="station2ComboBox">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Consolas</family>
+           </font>
+          </property>
+          <property name="editable">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_11">
+        <item>
+         <widget class="QLabel" name="label_7">
+          <property name="text">
+           <string>所属线路：</string>
+          </property>
+          <property name="buddy">
+           <cstring>connectRouteComboBox</cstring>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="connectRouteComboBox">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Consolas</family>
+           </font>
+          </property>
+          <property name="editable">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QWidget" name="layoutWidget7">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>320</y>
+       <width>291</width>
+       <height>32</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_12">
+      <item>
+       <widget class="QPushButton" name="connectCommitPushButton">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>Consolas</family>
+         </font>
+        </property>
+        <property name="text">
+         <string>确认</string>
+        </property>
+        <property name="default">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer_3">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QPushButton" name="connectPreviewPushButton">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>预览</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QGraphicsView" name="connectPreview">
+     <property name="geometry">
+      <rect>
+       <x>360</x>
+       <y>30</y>
+       <width>231</width>
+       <height>331</height>
+      </rect>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="resource.qrc"/>
+ </resources>
+ <connections/>
+</ui>
