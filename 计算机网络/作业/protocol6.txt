@@ -1,0 +1,88 @@
+void protocol6(void)
+{ ……
+    enable_network_layer();
+    ack_expected = 0;
+    next_frame_to_send = 0;
+    frame_expected = 0;
+    too_far = NR_BUFS; 
+    nbuffered = 0;
+    for (i=0;i<NR_BUFS;i++) 
+    arrived[i] = false;
+    while (true) 
+    { 
+        wait_for_event(&event);
+        switch(event)
+        { 
+            case network_layer_ready: 
+            {
+                nbuffered = nbuffered + 1; /* 扩展发送窗口 */ 
+                /* 从网络层取新的分组 */
+                from_network_layer(&out_buf
+                [next_frame_to_send % NR_BUFS]); 
+                /* 发送数据帧 */
+                send_frame(data, next_frame_to_send, 
+                frame_expected, out_buf);
+                inc(next_frame_to_send); /* 发送窗口的上限+1 */
+                break;
+
+            }
+            case frame_arrival: 
+            {
+                from_physical_layer(&r);
+                if (r.kind == data) 处理数据帧
+                { 
+                    if ((r.seq != frame_expected) && no_nak)
+                        send_frame(nak, 0, frame_expected, out_buf); 
+                    else start_ack_timer(); 如序号错则发nak，否则启动确认定时器
+                    if (between(frame_expected, r.seq, too_far) &&(arrived[r.seq%NR_BUFS] == false)) 如序号落在接收窗口内则接收
+                    { 
+                        arrived[r.seq % NR_BUFS] = true;
+                        in_buf[r.seq % NR_BUFS] = r.info;
+                        while (arrived[frame_expected % NR_BUFS]) 
+                        { 
+                            to_network_layer(&in_buf[frame_expected % NR_BUFS]);
+                            no_nak = true;
+                            arrived[frame_expected % NR_BUFS] = false;
+                            inc(frame_expected);
+                            inc(too_far);
+                            start_ack_timer(); 
+                        } 
+                    }    
+                }
+                if ((r.kind==nak) && between(ack_expected,(r.ack+1)%(MAX_SEQ+1),next_frame_to_send))
+                    send_frame(data, (r.ack+1) % (MAX_SEQ + 1), 
+                    frame_expected, out_buf);
+                    处理ack帧
+                    while (between(ack_expected, r.ack, 
+                    next_frame_to_send)) 
+                    { nbuffered = nbuffered - 1; 
+                    stop_timer(ack_expected % NR_BUFS); 
+                    inc(ack_expected);
+                    }
+
+            }
+            case cksum_err:
+            {
+                if (no_nak) send_frame(nak, 0, frame_expected, out_buf);
+            }
+            case timeout: 
+            {
+                next_frame_to_send = ack_expected; 
+                for (i = 1; i <= nbuffered; i++) 
+                { 
+                    send_data(next_frame_to_send, 
+                    frame_expected, buffer);
+                    inc(next_frame_to_send); 
+                    }
+            }
+            send_frame(data, oldest_frame, frame_expected, out_buf); 
+            case ack_timeout: 确认定时器超时，发一单独的ack
+            send_frame(ack,0,frame_expected, out_buf);
+            }
+        if (nbuffered <NR_BUFS)
+        enable_network_layer();
+        else
+        disable_network_layer();
+    } 
+    
+}
