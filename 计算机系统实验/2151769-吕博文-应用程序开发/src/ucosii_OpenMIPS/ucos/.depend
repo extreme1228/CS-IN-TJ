@@ -1,0 +1,66 @@
+os_flag.o: os_flag.c \
+  /home/extreme1228/data/cpu_data/ucosii_OpenMIPS/include/ucos_ii.h \
+  /home/extreme1228/data/cpu_data/ucosii_OpenMIPS/include/app_cfg.h \
+  /home/extreme1228/data/cpu_data/ucosii_OpenMIPS/include/os_cfg.h \
+  /home/extreme1228/data/cpu_data/ucosii_OpenMIPS/include/os_cpu.h \
+  /home/extreme1228/data/cpu_data/ucosii_OpenMIPS/include/cpu.h
+os_mbox.o: os_mbox.c \
+  /home/extreme1228/data/cpu_data/ucosii_OpenMIPS/include/ucos_ii.h \
+  /home/extreme1228/data/cpu_data/ucosii_OpenMIPS/include/app_cfg.h \
+  /home/extreme1228/data/cpu_data/ucosii_OpenMIPS/include/os_cfg.h \
+  /home/extreme1228/data/cpu_data/ucosii_OpenMIPS/include/os_cpu.h \
+  /home/extreme1228/data/cpu_data/ucosii_OpenMIPS/include/cpu.h
+os_mem.o: os_mem.c \
+  /home/extreme1228/data/cpu_data/ucosii_OpenMIPS/include/ucos_ii.h \
+  /home/extreme1228/data/cpu_data/ucosii_OpenMIPS/include/app_cfg.h \
+  /home/extreme1228/data/cpu_data/ucosii_OpenMIPS/include/os_cfg.h \
+  /home/extreme1228/data/cpu_data/ucosii_OpenMIPS/include/os_cpu.h \
+  /home/extreme1228/data/cpu_data/ucosii_OpenMIPS/include/cpu.h
+os_mutex.o: os_mutex.c \
+  /home/extreme1228/data/cpu_data/ucosii_OpenMIPS/include/ucos_ii.h \
+  /home/extreme1228/data/cpu_data/ucosii_OpenMIPS/include/app_cfg.h \
+  /home/extreme1228/data/cpu_data/ucosii_OpenMIPS/include/os_cfg.h \
+  /home/extreme1228/data/cpu_data/ucosii_OpenMIPS/include/os_cpu.h \
+  /home/extreme1228/data/cpu_data/ucosii_OpenMIPS/include/cpu.h
+os_q.o: os_q.c \
+  /home/extreme1228/data/cpu_data/ucosii_OpenMIPS/include/ucos_ii.h \
+  /home/extreme1228/data/cpu_data/ucosii_OpenMIPS/include/app_cfg.h \
+  /home/extreme1228/data/cpu_data/ucosii_OpenMIPS/include/os_cfg.h \
+  /home/extreme1228/data/cpu_data/ucosii_OpenMIPS/include/os_cpu.h \
+  /home/extreme1228/data/cpu_data/ucosii_OpenMIPS/include/cpu.h
+os_sem.o: os_sem.c \
+  /home/extreme1228/data/cpu_data/ucosii_OpenMIPS/include/ucos_ii.h \
+  /home/extreme1228/data/cpu_data/ucosii_OpenMIPS/include/app_cfg.h \
+  /home/extreme1228/data/cpu_data/ucosii_OpenMIPS/include/os_cfg.h \
+  /home/extreme1228/data/cpu_data/ucosii_OpenMIPS/include/os_cpu.h \
+  /home/extreme1228/data/cpu_data/ucosii_OpenMIPS/include/cpu.h
+os_task.o: os_task.c \
+  /home/extreme1228/data/cpu_data/ucosii_OpenMIPS/include/ucos_ii.h \
+  /home/extreme1228/data/cpu_data/ucosii_OpenMIPS/include/app_cfg.h \
+  /home/extreme1228/data/cpu_data/ucosii_OpenMIPS/include/os_cfg.h \
+  /home/extreme1228/data/cpu_data/ucosii_OpenMIPS/include/os_cpu.h \
+  /home/extreme1228/data/cpu_data/ucosii_OpenMIPS/include/cpu.h
+os_time.o: os_time.c \
+  /home/extreme1228/data/cpu_data/ucosii_OpenMIPS/include/ucos_ii.h \
+  /home/extreme1228/data/cpu_data/ucosii_OpenMIPS/include/app_cfg.h \
+  /home/extreme1228/data/cpu_data/ucosii_OpenMIPS/include/os_cfg.h \
+  /home/extreme1228/data/cpu_data/ucosii_OpenMIPS/include/os_cpu.h \
+  /home/extreme1228/data/cpu_data/ucosii_OpenMIPS/include/cpu.h
+os_tmr.o: os_tmr.c \
+  /home/extreme1228/data/cpu_data/ucosii_OpenMIPS/include/ucos_ii.h \
+  /home/extreme1228/data/cpu_data/ucosii_OpenMIPS/include/app_cfg.h \
+  /home/extreme1228/data/cpu_data/ucosii_OpenMIPS/include/os_cfg.h \
+  /home/extreme1228/data/cpu_data/ucosii_OpenMIPS/include/os_cpu.h \
+  /home/extreme1228/data/cpu_data/ucosii_OpenMIPS/include/cpu.h
+os_dbg_r.o: os_dbg_r.c \
+  /home/extreme1228/data/cpu_data/ucosii_OpenMIPS/include/ucos_ii.h \
+  /home/extreme1228/data/cpu_data/ucosii_OpenMIPS/include/app_cfg.h \
+  /home/extreme1228/data/cpu_data/ucosii_OpenMIPS/include/os_cfg.h \
+  /home/extreme1228/data/cpu_data/ucosii_OpenMIPS/include/os_cpu.h \
+  /home/extreme1228/data/cpu_data/ucosii_OpenMIPS/include/cpu.h
+os_core.o: os_core.c \
+  /home/extreme1228/data/cpu_data/ucosii_OpenMIPS/include/ucos_ii.h \
+  /home/extreme1228/data/cpu_data/ucosii_OpenMIPS/include/app_cfg.h \
+  /home/extreme1228/data/cpu_data/ucosii_OpenMIPS/include/os_cfg.h \
+  /home/extreme1228/data/cpu_data/ucosii_OpenMIPS/include/os_cpu.h \
+  /home/extreme1228/data/cpu_data/ucosii_OpenMIPS/include/cpu.h
